@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0B132B;
+    color:#FFFCF2
+}
+
+*{
+    font-family: Helvetica;
+}
+
+.img{
+    width:300px;
+    position: relative;
+    left: calc(50% - 150px)
+}
+
+h1{
+    position: relative;
+    left: 38%;
+}
+
+.no-me-gusta{
+    position: relative;
+    left: 30%;
+}
+
+.about{
+    background: #3E92CC;
+    width: 1500px;
+    height: 150px;
+   position: absolute;
+   left: calc(50%-150px);
+    text-align: center;
+}
+.about>h2{
+    position:absolute;
+    left: 45%;
+    font-size: 24px;
+}
+
+.about>p{
+    font-size: 20px;
+  
+}
+
+.fun{
+    width:1500px;
+    background-color: #3A506B;
+    position: absolute;
+    text-align: center;
+    top: 60%;
+}
+
+.fun>p{
+    font-size:20px;
+}
+
+.contact{
+    width: 1500px;
+    background:#1C2541;
+    position:absolute;
+    text-align: center;
+    top: 80%;
+    height: 200px;
+    
+   
+}
+.facebook{
+
+    background: white;
+    border-radius: 10%;
+    text-decoration: none;
+    position: absolute;
+    right: 30%
+  
+}
+
+.github{
+    
+    background-color: white;
+    border-radius: 10%;
+    text-decoration: none;
+    position: absolute;
+    left: 30%;
+    width: 50px;
+    
+  
+}
